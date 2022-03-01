@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/imparpar">
+
+    <TextView
+        android:id="@+id/titlepar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#90F3E4"
+        android:text="PAR IMPAR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Incorrectos:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/incorrectosn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="correctos:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/correctosn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numeros_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="numeros"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/impar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="IMPAR" />
+
+    <Button
+        android:id="@+id/par"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="PAR" />
+</LinearLayout>

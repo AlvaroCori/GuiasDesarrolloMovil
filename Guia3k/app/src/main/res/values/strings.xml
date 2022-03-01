@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Guia3k</string>
+    <string name="btn_white_label">white</string>
+    <string name="btn_red_label">red</string>
+    <string name="title_label">colores</string>
+    <string name="description_label">colores disponibles</string>
+    <string name="btn_blue_label">blue</string>
+    <string name="btn_yellow_label">yellow</string>
+</resources>

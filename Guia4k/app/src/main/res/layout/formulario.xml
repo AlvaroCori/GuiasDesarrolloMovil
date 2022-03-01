@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/nameLabel"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#001739"
+                android:gravity="center"
+                android:text="Nombre(*)"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nameInput"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF8E8E"
+                android:gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameText"
+                    android:layout_width="260dp"
+                    android:layout_height="31dp"
+                    android:hint="nombre"
+                    android:inputType="textShortMessage|number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lastNameLabel"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#001739"
+                android:gravity="center"
+                android:text="Apellido(*)"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lastNameInput"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF8E8E"
+                android:gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/lastNameText"
+                    android:layout_width="260dp"
+                    android:layout_height="31dp"
+                    android:hint="apellido"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/emailLabel"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#001739"
+                android:gravity="center"
+                android:text="E-mail(*)"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailInput"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF8E8E"
+                android:gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailText"
+                    android:layout_width="260dp"
+                    android:layout_height="31dp"
+                    android:hint="e-mail"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/messageLabel"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#001739"
+                android:gravity="center"
+                android:text="Mensaje"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/messageInput"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF8E8E"
+                android:gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/messageText"
+                    android:layout_width="260dp"
+                    android:layout_height="66dp"
+                    android:hint="mensaje"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <CheckBox android:id="@+id/checkbox_meat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Suscribirse por e-mail"
+                android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="Web del vendedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="36sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="confirmar" />
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="cancelar" />
+    </LinearLayout>
+</LinearLayout>

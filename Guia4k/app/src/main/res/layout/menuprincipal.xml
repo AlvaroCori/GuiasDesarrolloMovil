@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/principalbuttons">
+    <TextView
+        android:id="@+id/principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:background="#001739"
+        android:text="Menuprincipal"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Mi Aplicacion de negocio"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:contentDescription="SCP"
+        app:srcCompat="@drawable/scpfundation" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="Evento seleccionado:"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/eventtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="@string/text"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/servicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="SERVICIOS" />
+
+    <Button
+        android:id="@+id/portafolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="PORTAFOLIO" />
+
+    <Button
+        android:id="@+id/acercade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="ACERCA DE" />
+
+    <Button
+        android:id="@+id/contactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="CONTACTOS" />
+
+    <Button
+        android:id="@+id/redessociales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="REDES SOCIALES" />
+</LinearLayout>
