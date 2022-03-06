@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ServiciosActivity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMain" />
+
+    <Button
+        android:id="@+id/btnButtonsColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnButtonsColor" />
+
+    <Button
+        android:id="@+id/btnServices2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU" />
+
+    <Button
+        android:id="@+id/btnAdOdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAdOdd" />
+
+    <Button
+        android:id="@+id/btnTwoNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TwoNumbers" />
+
+    <Button
+        android:id="@+id/btnFormulary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFormulary" />
+
+    <Button
+        android:id="@+id/btn4Buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn4Buttoms" />
+</LinearLayout>

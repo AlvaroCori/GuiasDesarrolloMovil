@@ -10,8 +10,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Guia4k">
         <activity
-            android:name=".ServiciosActivity"
+            android:name=".ButtonsColor"
             android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".AdOdd"
+            android:exported="false" />
+        <activity
+            android:name=".OddTwoNumbers"
+            android:exported="false" />
+        <activity
+            android:name=".Formulary"
+            android:exported="false" />
+        <activity
+            android:name=".bFormulary"
+            android:exported="false" />
+        <activity
+            android:name=".fourButtoms"
+            android:exported="false" />
+        <activity
+            android:name=".ServiciosActivity"
+            android:exported="false"
+            android:label="servicio">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

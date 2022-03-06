@@ -3,12 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_ad_odd.xml" value="0.25" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_bformulary.xml" value="0.34601449275362317" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_buttons_color.xml" value="0.5" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_formulary.xml" value="0.34601449275362317" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_four_buttoms.xml" value="0.34601449275362317" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_main.xml" value="0.34601449275362317" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_main_menu.xml" value="0.17831813576494426" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_odd_two_numbers.xml" value="0.12129629629629629" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/activity_servicios.xml" value="0.18802083333333333" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/cuatrobotones.xml" value="0.33" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/formulario.xml" value="0.33" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/menuprincipal.xml" value="0.33" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/parimpar.xml" value="0.22" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/servicios.xml" value="0.33" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia4k/app/src/main/res/layout/suma2numeros.xml" value="0.22" />
       </map>
     </option>

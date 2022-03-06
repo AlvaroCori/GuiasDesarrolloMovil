@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">guia4k</string>
     <string name="text">evento</string>
+    <string name="btn4Buttoms">4 BOTONES</string>
+    <string name="returnOption">VOLVER</string>
+    <string name="btnFormulary">FORMULARIO</string>
+    <string name="TwoNumbers">SUMAR 2 NUMEROS</string>
+    <string name="btnAdOdd">PAR IMPAR</string>
+    <string name="btnMain">MENU PRINCIPAL</string>
+    <string name="btnButtonsColor">BOTONES CON COLORES DE BACKGROUND</string>
 </resources>

@@ -85,4 +85,11 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.05"
         android:text="REDES SOCIALES" />
+    <Button
+        android:id="@+id/returnButtonMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="@string/returnOption" />
+
 </LinearLayout>

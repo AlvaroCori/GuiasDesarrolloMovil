@@ -198,5 +198,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="cancelar" />
+
+        <Button
+            android:id="@+id/btnReturnFormulary"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/returnOption" />
     </LinearLayout>
 </LinearLayout>
