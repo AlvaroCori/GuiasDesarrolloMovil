@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Guia7k">
         <activity
+            android:name=".scp_trap"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

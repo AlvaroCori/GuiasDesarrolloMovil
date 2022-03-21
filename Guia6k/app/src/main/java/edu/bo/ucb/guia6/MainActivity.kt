@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.widget.Toolbar
+
+
 /*
 //deprecado
 import android.support.v7.app.AppCompatActivity
@@ -17,9 +19,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
-        setSupportActionBar(toolbar)
-
+        val toolbar = findViewById<View>(R.id.extToolbar) as Toolbar
+        //setSupportActionBar(toolbar)
+        supportActionBar.let {
+            setSupportActionBar(toolbar)
+        }
 
     }
 }

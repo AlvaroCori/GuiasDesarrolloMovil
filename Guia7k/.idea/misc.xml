@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GuiasDesarrolloMovil/Guia7k/app/src/main/res/drawable/096e_background.xml" value="0.2985" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia7k/app/src/main/res/layout/activity_main.xml" value="0.3509963768115942" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia7k/app/src/main/res/layout/activity_scp_trap.xml" value="0.25" />
         <entry key="..\:/GuiasDesarrolloMovil/Guia7k/app/src/main/res/menu/menu_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/GuiasDesarrolloMovil/Guia7k/app/src/main/res/mipmap-anydpi-v26/096.xml" value="0.196" />
       </map>
     </option>
   </component>

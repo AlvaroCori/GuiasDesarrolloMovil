@@ -23,6 +23,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun selectedButton(view: View) {
+        if ( view.id === R.id.action_search) {
+            val intent1: Intent = Intent(view.context, scp_trap::class.java)
+            startActivity(intent1)
+        }
         if ( view.id === R.id.btnServices) {
             val intent: Intent = Intent(view.context, R.menu.menu_main::class.java)
             startActivity(intent)
